@@ -447,6 +447,21 @@ section {
   
   
 }
+/* Default style for small screens (e.g., phones) */
+.p {
+  margin: 0;
+}
+
+/* Style for large screens (e.g., desktop) */
+@media (min-width: 992px) {
+  .margin-large {
+    margin-left: 
+    300px; /* Adjust the margin size as needed */
+  }
+  
+}
+
+
 .section-title h2::after {
   content: "";
   position: absolute;
